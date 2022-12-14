@@ -43,12 +43,10 @@ header a {
 
 .logo {
     margin-right: 20px;
-    
 }
 
 .nav {
-    display: flex;
-    
+    display: flex;    
 }
 
 .menu {
