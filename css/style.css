@@ -6,6 +6,7 @@ body {
     font-family: 'Anton', sans-serif;
     color: #000;
     font-size: 16px;
+    background-color: gray;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -24,9 +25,15 @@ ul, li {
     margin: 0 auto;
 }
 
+.back {
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #FFF;
+}
+
 /* Header */
 .header {
-    background: url(/img/headerBG.png) no-repeat center top / cover;
+    background: url(/img/headerBG.png) no-repeat center top;
     height: 720px;
 }
 
@@ -35,11 +42,13 @@ header a {
 }
 
 .logo {
-    margin-right: 20px;;
+    margin-right: 20px;
+    
 }
 
 .nav {
     display: flex;
+    
 }
 
 .menu {
