@@ -1,0 +1,94 @@
+/* font-family: 'Anton', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    color: #000;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    background: url(/img/headerBG.png) no-repeat center top / cover;
+    height: 720px;
+}
+
+header a {
+    color: #000;
+}
+
+.logo {
+    margin-right: 20px;;
+}
+
+.nav {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.menu li {
+    margin-right: 20px;
+    margin-left: auto;
+}
+
+/* Main */
+.main h1 {
+    font-size: 80px;
+}
+
+.main p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.image-section ul {
+    display: flex;
+}
+
+.image-section li {
+    margin-right: 16px;
+}
+
+/* Footer */
+.creator {
+    display: flex;
+    margin-top: 130px;
+}
+
+.creator p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.name {
+    margin-left: 0px;
+}
+
+.group {
+    margin-left: auto;
+}
